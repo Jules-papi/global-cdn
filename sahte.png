@@ -1,10 +1,2 @@
-<div id="hedef-alan"></div>
-
-<script>
-  fetch('https://cdn.jsdelivr.net/gh/kullanici-adin/cdn-depom@main/icerik.png')
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('hedef-alan').innerHTML = html;
-    })
-    .catch(err => console.error('CDN hatası:', err));
-</script>
+<h1>Tebrikler, CDN Çalışıyor!</h1>
+<p>Bu içerik direkt olarak GitHub üzerinden çekildi.</p>
